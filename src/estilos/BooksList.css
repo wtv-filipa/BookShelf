@@ -1,0 +1,51 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+.card{
+
+    width: 15rem;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.container > .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.capaLivro{
+
+    width: 128px;
+    height: auto;
+    justify-content: center;
+}
+
+.x :hover{
+    color: #EB5565 !important;
+    text-decoration: white !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card-group{
+        display: block;
+        margin: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

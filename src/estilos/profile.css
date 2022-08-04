@@ -1,0 +1,81 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+.img-circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.topoooo{
+  margin-top: 5%;
+}
+
+.linha {
+    color: linear-gradient(160deg, rgb(226, 153, 160) 0%, #EB5565 100%) !important;
+}
+
+.butao{
+    background-image: linear-gradient(160deg, rgb(226, 153, 160) 0%, #EB5565 100%);
+    color: #fff;
+    border-radius: 10000px !important;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #242c37 !important;
+    font: inherit;
+    text-transform: none
+}
+
+.input{
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 1rem 50%;
+    border: 1px solid #242c37 !important;
+    border-radius: 999px !important;
+    background-color: transparent;
+    text-align: center;
+    width: 60% !important;
+    outline: 0;
+    padding: .5rem 1rem;
+}
+input {
+    border: 0;
+    font: inherit;
+  }
+  input::placeholder {
+    color: #7e8ba3;
+  }
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  form.form-horizontal.form{
+   display: block !important;
+   margin: auto !important;
+   padding-top: 5%;
+   align-items: center;
+   text-align: center;
+  }
+  input.form-control{
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  form.form-horizontal.form{
+    margin-left: 10%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,57 @@
+.carde{
+    width: 12rem;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.container > .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.capaLivro{
+
+    width: 128px;
+    height: auto;
+    justify-content: center;
+}
+
+.x :hover{
+    color: #EB5565 !important;
+    text-decoration: white !important;
+}
+
+.but{
+    background-image: linear-gradient(160deg, rgb(226, 153, 160) 0%, #EB5565 100%);
+    color: #fff;
+    border-radius: 10000px !important;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #242c37 !important;
+    font: inherit;
+    width: 10%;
+    text-transform: none
+    
+}
+
+.cor{
+    color: white;
+}
+
+.cor :hover{
+    text-decoration: white !important;
+    color: black !important;
+}
+
+.prat{
+    border-radius: 14%;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+  

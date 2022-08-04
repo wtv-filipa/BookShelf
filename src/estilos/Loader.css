@@ -1,0 +1,23 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+.loader{
+
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.loaderImagem{
+
+    justify-content: center;
+    margin:auto;
+}
+
+.fraseLoad{
+
+    margin-left: 25px;
+    color: grey;
+}
